@@ -1,5 +1,3 @@
-
-using AutoFileManager.Data.Entities;
 using AutoFileManager.Dtos;
 
 namespace AutoFileManager.Services.Interfaces

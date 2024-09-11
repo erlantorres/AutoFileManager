@@ -13,19 +13,16 @@ namespace AutoFileManager.Services
 {
     public class FileHandleService : IFileHandleService
     {
-        private readonly (int start, int end) defaultPositionRegistryType;
         private readonly ILogger<FileHandleService> logger;
         private readonly IContentInformationService contentInformationService;
         private readonly IFileService fileService;
 
         public FileHandleService(
             ILogger<FileHandleService> logger,
-            IConfigurationsHelper configurationsHelper,
             IContentInformationService contentInformationService,
             IFileService fileService
         )
         {
-            this.defaultPositionRegistryType = configurationsHelper.DefaultPositionRegistryType;
             this.logger = logger;
             this.contentInformationService = contentInformationService;
             this.fileService = fileService;
@@ -35,7 +32,7 @@ namespace AutoFileManager.Services
         {
             try
             {
-                Dictionary<string, List<string>> registryTypeContent = GetRestryTypeContent(filePathInput);
+                Dictionary<string, List<string>> registryTypeContent = fileService.GetRestryTypeContent(filePathInput);
                 foreach (var keyValuePair in registryTypeContent)
                 {
                     string key = keyValuePair.Key;
@@ -76,7 +73,7 @@ namespace AutoFileManager.Services
                 contents.ForEach(content =>
                 {
                     var field = "";
-                    if (line.Length > (index + content.Length))
+                    if (line.Length >= (index + content.Length))
                     {
                         field = line.Substring(index, content.Length);
                     }
@@ -95,30 +92,6 @@ namespace AutoFileManager.Services
         {
             var descriptions = contents.Select(x => x.Description).ToList();
             return string.Join(", ", descriptions);
-        }
-
-        private Dictionary<string, List<string>> GetRestryTypeContent(string filePathInput)
-        {
-            var registryTypeContent = new Dictionary<string, List<string>>();
-            using StreamReader sr = new StreamReader(filePathInput);
-            while (sr.Peek() >= 0)
-            {
-                var line = sr.ReadLine();
-                if (!string.IsNullOrWhiteSpace(line))
-                {
-                    var (start, end) = defaultPositionRegistryType;
-                    var type = line.Substring(start, end);
-
-                    if (!registryTypeContent.ContainsKey(type))
-                    {
-                        registryTypeContent[type] = new List<string>();
-                    }
-
-                    registryTypeContent[type].Add(line);
-                }
-            }
-
-            return registryTypeContent;
         }
     }
 }
