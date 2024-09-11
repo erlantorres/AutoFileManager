@@ -1,0 +1,18 @@
+[
+    {
+        "RegistryType": "0",
+        "Description": "Alta de Apuntes sin IVA"
+    },
+    {
+        "RegistryType": "1",
+        "Description": "Alta Cabecera de apuntes con IVA (Formato para Facturas)"
+    },
+    {
+        "RegistryType": "9",
+        "Description": "Detalle de apuntes con IVA (Facturas y rectificativas)"
+    },
+    {
+        "RegistryType": "C",
+        "Description": "Alta y modificación de cuentas y/o clientes o proveedores"
+    }
+]

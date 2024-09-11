@@ -1,0 +1,751 @@
+[
+    {
+        "RegistryType": "0",
+        "Order": 1,
+        "Position": "1",
+        "Length": 1,
+        "Description": "Tipo de Formato"
+    },
+    {
+        "RegistryType": "0",
+        "Order": 2,
+        "Position": "2 a 6",
+        "Length": 5,
+        "Description": "Código de empresa"
+    },
+    {
+        "RegistryType": "0",
+        "Order": 3,
+        "Position": "7 a 14",
+        "Length": 8,
+        "Description": "Fecha del apunte"
+    },
+    {
+        "RegistryType": "0",
+        "Order": 4,
+        "Position": "15",
+        "Length": 1,
+        "Description": "Tipo de Registro"
+    },
+    {
+        "RegistryType": "0",
+        "Order": 5,
+        "Position": "16 a 27",
+        "Length": 12,
+        "Description": "Cuenta"
+    },
+    {
+        "RegistryType": "0",
+        "Order": 6,
+        "Position": "28 a 57",
+        "Length": 30,
+        "Description": "Descripción de la cuenta"
+    },
+    {
+        "RegistryType": "0",
+        "Order": 7,
+        "Position": "58",
+        "Length": 1,
+        "Description": "Tipo de importe (D/H)"
+    },
+    {
+        "RegistryType": "0",
+        "Order": 8,
+        "Position": "59 a 68",
+        "Length": 10,
+        "Description": "Referencia del documento"
+    },
+    {
+        "RegistryType": "0",
+        "Order": 9,
+        "Position": "69",
+        "Length": 1,
+        "Description": "Línea de apunte(I, M, U)"
+    },
+    {
+        "RegistryType": "0",
+        "Order": 10,
+        "Position": "70 a 99",
+        "Length": 30,
+        "Description": "Descripción del apunte"
+    },
+    {
+        "RegistryType": "0",
+        "Order": 11,
+        "Position": "100 a 113",
+        "Length": 14,
+        "Description": "Importe"
+    },
+    {
+        "RegistryType": "0",
+        "Order": 12,
+        "Position": "114 a 250",
+        "Length": 137,
+        "Description": "Reserva"
+    },
+    {
+        "RegistryType": "0",
+        "Order": 13,
+        "Position": "251",
+        "Length": 1,
+        "Description": "Indicador de Asiento de nómina"
+    },
+    {
+        "RegistryType": "0",
+        "Order": 14,
+        "Position": "252",
+        "Length": 1,
+        "Description": "Tiene Registro Analítico"
+    },
+    {
+        "RegistryType": "0",
+        "Order": 15,
+        "Position": "253 a 508",
+        "Length": 256,
+        "Description": "Reserva"
+    },
+    {
+        "RegistryType": "0",
+        "Order": 16,
+        "Position": "509",
+        "Length": 1,
+        "Description": "Moneda enlace"
+    },
+    {
+        "RegistryType": "0",
+        "Order": 17,
+        "Position": "510",
+        "Length": 1,
+        "Description": "Indicador de generado (N)"
+    },
+    {
+        "RegistryType": "0",
+        "Order": 18,
+        "Position": "511 a 512",
+        "Length": 2,
+        "Description": "Retorno de carro"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 1,
+        "Position": 1,
+        "Length": 1,
+        "Description": "Tipo de Formato"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 2,
+        "Position": "2 a 6",
+        "Length": 5,
+        "Description": "Código de empresa"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 3,
+        "Position": "7 a 14",
+        "Length": 8,
+        "Description": "Fecha del apunte"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 4,
+        "Position": 15,
+        "Length": 1,
+        "Description": "Tipo de Registro"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 5,
+        "Position": "16 a 27",
+        "Length": 12,
+        "Description": "Cuenta"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 6,
+        "Position": "28 a 57",
+        "Length": 30,
+        "Description": "Descripción de la cuenta"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 7,
+        "Position": 58,
+        "Length": 1,
+        "Description": "Tipo de factura"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 8,
+        "Position": "59 a 68",
+        "Length": 10,
+        "Description": "Número de factura o documento"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 9,
+        "Position": 69,
+        "Length": 1,
+        "Description": "Línea de apunte (I)"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 10,
+        "Position": "70 a 99",
+        "Length": 30,
+        "Description": "Descripción del apunte"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 11,
+        "Position": "100 a 113",
+        "Length": 14,
+        "Description": "Importe"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 12,
+        "Position": "114 a 175",
+        "Length": 62,
+        "Description": "Reserva"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 13,
+        "Position": "176 a 189",
+        "Length": 14,
+        "Description": "NIF cliente o proveedor"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 14,
+        "Position": "190 a 229",
+        "Length": 40,
+        "Description": "Nombre cliente o proveedor"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 15,
+        "Position": "230 a 234",
+        "Length": 5,
+        "Description": "Código postal"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 16,
+        "Position": "235 a 236",
+        "Length": 2,
+        "Description": "Reserva."
+    },
+    {
+        "RegistryType": "1",
+        "Order": 17,
+        "Position": "237 a 244",
+        "Length": 8,
+        "Description": "Fecha de operación"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 18,
+        "Position": "245 a 252",
+        "Length": 8,
+        "Description": "Fecha de factura"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 19,
+        "Position": "253 a 312",
+        "Length": 60,
+        "Description": "Número factura ampliado para el SII"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 20,
+        "Position": "313 a 508",
+        "Length": 196,
+        "Description": "Reserva"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 21,
+        "Position": 509,
+        "Length": 1,
+        "Description": "Moneda enlace"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 22,
+        "Position": 510,
+        "Length": 1,
+        "Description": "Indicador de generado (N)"
+    },
+    {
+        "RegistryType": "1",
+        "Order": 23,
+        "Position": "511 a 512",
+        "Length": 2,
+        "Description": "Retorno de carro"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 1,
+        "Position": 1,
+        "Length": 1,
+        "Description": "Tipo de Formato"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 2,
+        "Position": "2 a 6",
+        "Length": 5,
+        "Description": "Código de empresa"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 3,
+        "Position": "7 a 14",
+        "Length": 8,
+        "Description": "Fecha del apunte"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 4,
+        "Position": 15,
+        "Length": 1,
+        "Description": "Tipo de Registro"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 5,
+        "Position": "16 a 27",
+        "Length": 12,
+        "Description": "Cuenta"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 6,
+        "Position": "28 a 57",
+        "Length": 30,
+        "Description": "Descripción de la cuenta"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 7,
+        "Position": 58,
+        "Length": 1,
+        "Description": "Tipo de importe (C o A)"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 8,
+        "Position": "59 a 68",
+        "Length": 10,
+        "Description": "Número de factura o documento."
+    },
+    {
+        "RegistryType": "9",
+        "Order": 9,
+        "Position": 69,
+        "Length": 1,
+        "Description": "Línea de apunte (M o U)"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 10,
+        "Position": "70 a 99",
+        "Length": 30,
+        "Description": "Descripción del apunte"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 11,
+        "Position": "100 a 101",
+        "Length": 2,
+        "Description": "Subtipo de factura (01 a 07)"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 12,
+        "Position": "102 a 115",
+        "Length": 14,
+        "Description": "Base imponible"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 13,
+        "Position": "116 a 120",
+        "Length": 5,
+        "Description": "Porcentaje de IVA"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 14,
+        "Position": "121 a 134",
+        "Length": 14,
+        "Description": "Cuota de IVA"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 15,
+        "Position": "135 a 139",
+        "Length": 5,
+        "Description": "Porcentaje de Recargo"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 16,
+        "Position": "140 a 153",
+        "Length": 14,
+        "Description": "Cuota de Recargo"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 17,
+        "Position": "154 a 158",
+        "Length": 5,
+        "Description": "Porcentaje de Retención"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 18,
+        "Position": "159 a 172",
+        "Length": 14,
+        "Description": "Cuota de Retención"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 19,
+        "Position": 175,
+        "Length": 1,
+        "Description": "Operación sujeta a IVA"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 20,
+        "Position": 176,
+        "Length": 1,
+        "Description": "Marca afecta 415."
+    },
+    {
+        "RegistryType": "9",
+        "Order": 21,
+        "Position": 177,
+        "Length": 1,
+        "Description": "Marca factura en criterio de caja."
+    },
+    {
+        "RegistryType": "9",
+        "Order": 22,
+        "Position": "178 a 191",
+        "Length": 14,
+        "Description": "Reserva"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 23,
+        "Position": "192 a 203",
+        "Length": 12,
+        "Description": "Cuenta de IVA Soportado"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 24,
+        "Position": "204 a 215",
+        "Length": 12,
+        "Description": "Cuenta de recargo Soportado"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 25,
+        "Position": "216 a 227",
+        "Length": 12,
+        "Description": "Cuenta de retención"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 26,
+        "Position": "228 a 239",
+        "Length": 12,
+        "Description": "Cuenta de IVA 2 Repercutido"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 27,
+        "Position": "240 a 251",
+        "Length": 12,
+        "Description": "Cuenta de recargo 2 Repercutid"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 28,
+        "Position": 252,
+        "Length": 1,
+        "Description": "Tiene Registro Analítico"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 29,
+        "Position": "253 a 508",
+        "Length": 256,
+        "Description": "Reserva"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 30,
+        "Position": 509,
+        "Length": 1,
+        "Description": "Moneda enlace"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 31,
+        "Position": 510,
+        "Length": 1,
+        "Description": "Indicador de generado (N)"
+    },
+    {
+        "RegistryType": "9",
+        "Order": 32,
+        "Position": "511 a 512",
+        "Length": 2,
+        "Description": "Retorno de carro"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 1,
+        "Position": 1,
+        "Length": 1,
+        "Description": "Tipo de Formato"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 2,
+        "Position": "2 a 6",
+        "Length": 5,
+        "Description": "Código de empresa"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 3,
+        "Position": "7 a 14",
+        "Length": 8,
+        "Description": "Fecha de alta."
+    },
+    {
+        "RegistryType": "C",
+        "Order": 4,
+        "Position": 15,
+        "Length": 1,
+        "Description": "Tipo de Registro"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 5,
+        "Position": "16 a 27",
+        "Length": 12,
+        "Description": "Cuenta"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 6,
+        "Position": "28 a 57",
+        "Length": 30,
+        "Description": "Descripción de la cuenta"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 7,
+        "Position": 58,
+        "Length": 1,
+        "Description": "Actualizar Saldo Inicial"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 8,
+        "Position": "59 a 72",
+        "Length": 14,
+        "Description": "Saldo Inicial"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 9,
+        "Position": 73,
+        "Length": 1,
+        "Description": "Ampliación"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 10,
+        "Position": "74 a 77",
+        "Length": 4,
+        "Description": "Reserva"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 11,
+        "Position": "78 a 91",
+        "Length": 14,
+        "Description": "NIF"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 12,
+        "Position": "92 a 93",
+        "Length": 2,
+        "Description": "Siglas Vía Publica"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 13,
+        "Position": "94 a 123",
+        "Length": 30,
+        "Description": "Vía Publica"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 14,
+        "Position": "124 a 128",
+        "Length": 5,
+        "Description": "Numero"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 15,
+        "Position": "129 a 130",
+        "Length": 2,
+        "Description": "Escalera"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 16,
+        "Position": "131 a 132",
+        "Length": 2,
+        "Description": "Piso"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 17,
+        "Position": "133 a 134",
+        "Length": 2,
+        "Description": "Puerta"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 18,
+        "Position": "135 a 154",
+        "Length": 20,
+        "Description": "Municipio"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 19,
+        "Position": "155 a 159",
+        "Length": 5,
+        "Description": "Código Postal"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 20,
+        "Position": "160 a 174",
+        "Length": 15,
+        "Description": "Provincia"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 21,
+        "Position": "175 a 177",
+        "Length": 3,
+        "Description": "País"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 22,
+        "Position": "178 a 189",
+        "Length": 12,
+        "Description": "Teléfono"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 23,
+        "Position": "190 a 193",
+        "Length": 4,
+        "Description": "Extensión"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 24,
+        "Position": "194 a 205",
+        "Length": 12,
+        "Description": "Fax"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 25,
+        "Position": "206 a 235",
+        "Length": 30,
+        "Description": "@e-mail"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 26,
+        "Position": "236 a 237",
+        "Length": 2,
+        "Description": "Reservado"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 27,
+        "Position": 238,
+        "Length": 1,
+        "Description": "Criterio de caja"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 28,
+        "Position": "239 a 240",
+        "Length": 2,
+        "Description": "Reservado"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 29,
+        "Position": "241 a 252",
+        "Length": 12,
+        "Description": "Cuenta contrapartida"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 30,
+        "Position": "253 a 254",
+        "Length": 2,
+        "Description": "Código de país"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 31,
+        "Position": "255 a 508",
+        "Length": 254,
+        "Description": "Reserva"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 32,
+        "Position": 509,
+        "Length": 1,
+        "Description": "Moneda enlace"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 33,
+        "Position": 510,
+        "Length": 1,
+        "Description": "Indicador de generado (N)"
+    },
+    {
+        "RegistryType": "C",
+        "Order": 34,
+        "Position": "511 a 512",
+        "Length": 2,
+        "Description": "Retorno de carro"
+    }
+]
