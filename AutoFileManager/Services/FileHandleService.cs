@@ -1,12 +1,9 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using AutoFileManager.Data.Entities;
 using AutoFileManager.Services.Interfaces;
-using AutoFileManager.Settings;
 using Microsoft.Extensions.Logging;
 
 namespace AutoFileManager.Services
