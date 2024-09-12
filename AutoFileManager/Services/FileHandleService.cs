@@ -78,7 +78,7 @@ namespace AutoFileManager.Services
                         field = line.Substring(index, content.Length);
                     }
 
-                    listAux[content.Order - 1] = field;
+                    listAux[content.Order - 1] = field.Replace(",", " ");
                     index += content.Length;
                 });
 
@@ -90,7 +90,7 @@ namespace AutoFileManager.Services
 
         private static string GetHeader(IEnumerable<ContentTypeEntity> contents)
         {
-            var descriptions = contents.Select(x => x.Description).ToList();
+            var descriptions = contents.Select(x => x.Description.Replace(",", "/")).ToList();
             return string.Join(", ", descriptions);
         }
     }
