@@ -60,8 +60,8 @@ namespace AutoFileManager.Services
         {
             var directory = Directory.GetParent(newFilePath);
             CreateDirectory(directory.FullName);
-            
-            File.WriteAllText(newFilePath, stringBuilder.ToString());
+
+            File.WriteAllText(newFilePath, stringBuilder.ToString(), Encoding.UTF8);
         }
     }
 }
