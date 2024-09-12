@@ -5,8 +5,8 @@ This is a PoC of an executable application that reads a data file where the line
 ## Database (JSON)
 The configuration files are located in the Data/database directory:
 - **Files**:
-    - `ContentType.json` - Contains the types of records that the file can have
-    - `InformationType.json` - Contains the specification of the data contained in the file, description, position, size, and order
+    - `ContentType.json` - Contains the specification of the data contained in the file, description, position, size, and order
+    - `InformationType.json` - Contains the types of records that the file can have
 
 ## Directory Configuration
 Inside the Settings folder, there is the `ConfigurationHelper.cs` class that contains the input and output configuration of the files and the path to the json files that represent the database.
