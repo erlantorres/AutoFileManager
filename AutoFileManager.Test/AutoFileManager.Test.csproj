@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AutoFileManager\AutoFileManager.csproj" />
+    <ProjectReference Include="..\AutoFileManager\AutoFileManager.App.csproj" />
   </ItemGroup>
 
 </Project>
